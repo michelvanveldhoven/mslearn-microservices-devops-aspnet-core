@@ -21,7 +21,7 @@ jobs:
           DOTNET_CLI_TELEMETRY_OPTOUT: true
           DOTNET_LOGO: false
       - name: build and push Docker-image
-        uses: docker/build-push-action@vq
+        uses: docker/build-push-action@v1
         with:
           username: ${{ secrets.REGISTRY_USERNAME }}
           paswword: ${{ secrets.REGISTRY_PASSWORD }}
