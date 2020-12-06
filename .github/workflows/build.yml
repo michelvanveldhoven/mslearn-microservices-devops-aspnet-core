@@ -3,8 +3,8 @@ name: eShop build
 on: 
   push:
     paths: 
-      - 'src/Services/Coupon/**'
-      - 'test/Services/Coupon/**'
+     - 'src/Services/Coupon/**'
+     - 'tests/Services/Coupon/**'
     branches: [main]
 
 jobs:
