@@ -4,7 +4,7 @@ on:
   push:
     paths: 
       - 'src/Services/Coupon/**'
-      - 'test/ServicesCoupon/**'
+      - 'test/Services/Coupon/**'
     branches: [main]
 
 jobs:
