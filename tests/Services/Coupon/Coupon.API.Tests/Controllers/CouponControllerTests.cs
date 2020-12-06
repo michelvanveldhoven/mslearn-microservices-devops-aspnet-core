@@ -8,7 +8,6 @@ namespace Coupon.API.Tests
         public void Test1()
         {
             Assert.True(true);
-            Assert.True(true);
         }
     }
 }
